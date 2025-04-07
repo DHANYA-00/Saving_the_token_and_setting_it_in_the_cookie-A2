@@ -3,6 +3,24 @@
     "start": "servor --reload"
   },
   "dependencies": {
+    "jsonwebtoken": "^9.0.2",
     "servor": "^4.0.2"
-  }
+  },
+  "name": "saving_the_token_and_setting_it_in_the_cookie-a2",
+  "version": "1.0.0",
+  "description": "- Learn to generate a JWT (JSON Web Token) with an expiration time to enhance the security of your full-stack applications.",
+  "main": "script.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHANYA-00/Saving_the_token_and_setting_it_in_the_cookie-A2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DHANYA-00/Saving_the_token_and_setting_it_in_the_cookie-A2/issues"
+  },
+  "homepage": "https://github.com/DHANYA-00/Saving_the_token_and_setting_it_in_the_cookie-A2#readme"
 }
