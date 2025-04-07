@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "start": "servor --reload"
+    "start": "servor --reload",
+    "type": "module"
+
   },
   "dependencies": {
     "jsonwebtoken": "^9.0.2",

@@ -1,13 +1,6 @@
+
 const jwt = require('jsonwebtoken');
-
-const encrypt = (payload, secret) => {
-  const token = jwt.sign(payload, secret, { expiresIn: '2h' }); // Token valid for 2 hour
-  return token;
-};
-
-module.exports = encrypt;
-
-// test.js
+const encrypt = require('./jwtUtil');
 
 const payload = { username: 'Shank' };
 const secret = 'shank456';
